@@ -23,7 +23,7 @@ def main():
     elif word == 'слон':
         answer = bishop((a,b),(c,d))
     elif word == 'ферзь':
-        pass
+        answer = rook((a,b),(c,d)) or bishop((a,b),(c,d))
     elif word == 'конь':
         pass
 
