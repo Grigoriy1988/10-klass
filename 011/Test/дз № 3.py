@@ -14,6 +14,7 @@ def f(n):
     return f(n // 8)
 
 
+<<<<<<< HEAD
 k = 0
 for i in range(8 ** 0, 8 ** 3 + 1):
     if f(i) == 2:
@@ -21,4 +22,11 @@ for i in range(8 ** 0, 8 ** 3 + 1):
 print(k)
 
 
+=======
+# k = 0
+# for i in range(8 ** 3, 8 ** 4 + 1):
+#     if f(i) == 2:
+#         k += 1
+# print(k)
+>>>>>>> origin/main
 print(10 * 5 ** 9 - 9 * 5 ** 8)
