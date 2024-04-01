@@ -1,3 +1,4 @@
+#дз
 from random import randint
 n = int(input('Введите количество элементов '))
 A = [randint(0,100) for _ in range(n)]
