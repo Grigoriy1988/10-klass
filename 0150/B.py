@@ -1,7 +1,7 @@
 from random import randint
 
 
-def fibonacci(num):
+def fibo(num):
     a = 1
     b = 1
     while num >= b:
@@ -12,7 +12,7 @@ def fibonacci(num):
 
 
 n = int(input('Введите количество элементов '))
-A = [randint(0, 100) for _ in range(n)]
-print(f'Массив A:\n{' '.join(str(i) for i in A)}')
-B = [i for i in A if fibonacci(i)]
+A = [randint(0, 150) for _ in range(n)]
+print(f'Массив А:\n{' '.join(str(i) for i in A)}')
+B = [i for i in A if fibo(i)]
 print(f'Массив B:\n{' '.join(str(i) for i in B)}')
